@@ -14,7 +14,7 @@ madre(selma, [ling]).
 %Caso base
 hijoEnLista(HIJO, [HIJO|_]).
 
-%Caso recursico
+%Caso recursivo
 hijoEnLista(HIJO, [_|COLA]) :-
     hijoEnLista(HIJO, COLA).
 
